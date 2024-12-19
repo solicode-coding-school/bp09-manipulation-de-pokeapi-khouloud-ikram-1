@@ -115,8 +115,8 @@ button:hover {
   padding: 40px;
   border-radius: 20px;
   width: 600px;
-  height: 300px;
-  margin: 100px auto;
+  height: 400px;
+  margin: 25px auto;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   color: #333;
   border: 2px solid #4CAF50;
@@ -136,7 +136,7 @@ button:hover {
 }
 
 #pokemon-details img {
-  width: 150px;
+  width: 168px;
   height: auto;
   border-radius: 3px;
   border: 3px solid black;
@@ -144,7 +144,8 @@ button:hover {
   transition: transform 0.3s, box-shadow 0.3s;
   margin-left: 30px;
   position: relative;
-  top: 15px;
+  top: 60px;
+  background-color: white;
 }
 
 #pokemon-details img:hover {
@@ -156,6 +157,7 @@ button:hover {
   list-style-type: none;
   padding: 0;
   margin: 20px 120px;
+
 }
 
 #pokemon-details ul li {
@@ -167,7 +169,17 @@ button:hover {
   padding-left: 15px;
   position: relative;
   font-weight: bold;
-  top: -160px;
+  top: -190px;
   left: 140px;
-  line-height: 23px;
+  /* line-height: 23px; */
+
+  /* Ajout des styles pour les cases */
+  border: 2px solid #000; /* Bordure noire */
+  background-color: white; /* Fond gris clair */
+  padding: 10px; /* Espace autour du texte */
+  border-radius: 8px; /* Coins arrondis */
+  width: 200px; /* Largeur des cases */
+  margin: 10px auto; /* Espacement entre les cases */
+  font-weight: bold;
 }
+
